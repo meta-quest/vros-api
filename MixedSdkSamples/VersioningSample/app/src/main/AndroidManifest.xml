@@ -1,0 +1,30 @@
+<!--
+  Copyright (c) Meta Platforms, Inc. and affiliates.
+
+  This source code is licensed under the MIT license found in the
+  LICENSE file in the root directory of this source tree.
+-->
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:horizonos="http://schemas.horizonos/sdk"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <horizonos:uses-horizonos-sdk
+        horizonos:minSdkVersion="204"
+        horizonos:targetSdkVersion="204" />
+
+    <application
+        android:label="Horizon OS SDK Versioning">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

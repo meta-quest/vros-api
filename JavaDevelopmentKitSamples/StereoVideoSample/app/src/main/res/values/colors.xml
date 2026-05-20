@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Copyright (c) Meta Platforms, Inc. and affiliates.
+
+  This source code is licensed under the MIT license found in the
+  LICENSE file in the root directory of this source tree.
+-->
+<resources>
+  <color name="md_primary">#1565C0</color>
+  <color name="md_on_primary">#FFFFFF</color>
+  <color name="md_primary_container">#D1E4FF</color>
+  <color name="md_on_primary_container">#001D36</color>
+  <color name="md_secondary">#545F71</color>
+  <color name="md_on_secondary">#FFFFFF</color>
+  <color name="md_secondary_container">#D8E3F8</color>
+  <color name="md_on_secondary_container">#111C2B</color>
+  <color name="md_surface">#F8F9FF</color>
+  <color name="md_on_surface">#191C20</color>
+  <color name="md_surface_variant">#DFE2EB</color>
+  <color name="md_on_surface_variant">#43474E</color>
+</resources>

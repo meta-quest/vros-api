@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) Meta Platforms, Inc. and affiliates.
+
+  This source code is licensed under the MIT license found in the
+  LICENSE file in the root directory of this source tree.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:horizonos="http://schemas.horizonos/sdk">
+    <application android:allowBackup="true" android:label="Stereo Video Sample" android:supportsRtl="true" android:theme="@style/Theme.StereoVideo">
+        <activity android:name=".StereoVideoActivity" android:exported="true" android:label="Stereo VideoView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".StereoSurfaceViewActivity" android:exported="true" android:label="Stereo SurfaceView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+    <horizonos:uses-horizonos-sdk horizonos:minSdkVersion="204" horizonos:targetSdkVersion="204"/>
+</manifest>

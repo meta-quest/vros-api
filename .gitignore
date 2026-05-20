@@ -1,0 +1,30 @@
+# Build outputs
+build/
+.cxx/
+out/
+obj/
+
+# Gradle
+.gradle/
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+captures/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Unity
+Library/
+Temp/
+Logs/
+UserSettings/
+
+# OS
+.DS_Store
+Thumbs.db

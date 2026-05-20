@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Copyright (c) Meta Platforms, Inc. and affiliates.
+
+  This source code is licensed under the MIT license found in the
+  LICENSE file in the root directory of this source tree.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name" description="Name of the Stereo Video Sample application.">Stereo Video Sample</string>
+  <string name="stereo_video_title" description="Toolbar title for the VideoView-based stereo sample activity.">Stereo video</string>
+  <string name="stereo_surface_view_title" description="Toolbar title for the SurfaceView-based stereo sample activity.">Stereo SurfaceView</string>
+  <string name="stereo_mode_label" description="Label above the stereo mode selector buttons.">Stereo mode</string>
+  <string name="mode_mono" description="Button label for standard mono video composition mode.">Mono</string>
+  <string name="mode_side_by_side" description="Button label for side-by-side stereo video composition mode.">Side by side</string>
+  <string name="mode_top_bottom" description="Button label for top-bottom stereo video composition mode.">Top bottom</string>
+  <string name="composition_info_none" description="Fallback file name shown when no video file is selected.">none</string>
+  <string name="composition_info_placeholder" description="Initial diagnostic text shown before video metadata is available.">Mode: MONO\nFile: none\nBuffer: 0x0\nView: 0x0</string>
+  <string name="composition_info_format" description="Diagnostic text showing selected stereo mode, video file, encoded buffer dimensions, and current view dimensions.">Mode: <xliff:g id="mode">%1$s</xliff:g>\nFile: <xliff:g id="file">%2$s</xliff:g>\nBuffer: <xliff:g id="buffer_width">%3$d</xliff:g>x<xliff:g id="buffer_height">%4$d</xliff:g>\nView: <xliff:g id="view_width">%5$d</xliff:g>x<xliff:g id="view_height">%6$d</xliff:g></string>
+</resources>
