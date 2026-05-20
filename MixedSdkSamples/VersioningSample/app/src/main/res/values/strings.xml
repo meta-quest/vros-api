@@ -1,10 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
   Copyright (c) Meta Platforms, Inc. and affiliates.
 
   This source code is licensed under the MIT license found in the
   LICENSE file in the root directory of this source tree.
 -->
-<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sdk_version_message" description="message to be displayed with version embedded in it">Horizon OS SDK version is: <xliff:g id="sdk_version">%1$d</xliff:g></string>
     <string name="isatorabove_comparison_message" description="message to be displayed regarding comparison of SDK versions using isAtOrAbove">Is the SDK version <xliff:g id="sdk_version">%1$d</xliff:g> at or above <xliff:g id="target_version">%2$d</xliff:g>? <xliff:g id="result">%3$s</xliff:g></string>

@@ -8,12 +8,12 @@ agp = "8.13.2"
 kotlin = "2.0.21"
 
 # Select the desired versions of Horizon OS JSDK and Support Library
-horizon-os-jsdk = "204.0.0"
+horizon-os-jsdk = "204"
 horizon-os-support-library = "0.1.0"
 
 # Declare libraries for Horizon OS JSDK and Support Library for use as dependencies in build.gradle.kts
 [libraries]
-horizonos-jsdk = { group = "com.meta.horizonos", name = "jsdk", version.ref = "horizon-os-jsdk" }
+horizonos-jsdk = { group = "com.meta.horizonos", name = "horizon-os-jsdk", version.ref = "horizon-os-jsdk" }
 horizonosx-core = { group = "com.meta.horizonosx", name = "core", version.ref = "horizon-os-support-library" }
 
 [plugins]
