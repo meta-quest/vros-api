@@ -11,8 +11,8 @@ This repository is a collection of code samples that demonstrate the capabilitie
 
 The Horizon OS SDK consists of three complementary packages:
 
-- **Horizon OS JSDK** — Java APIs for Horizon OS features, akin to the Android SDK. Distributed as the `horizon-os-jsdk` Android library (AAR).
-- **[Horizon OS NSDK](https://developers.meta.com/horizon/reference/horizon-os-nsdk/latest/)** — Native C APIs for Horizon OS features, akin to the Android NDK. Distributed as the `horizon-os-nsdk` Android library (AAR) with Prefab-packaged headers and shared libraries.
+- **[Horizon OS JSDK](https://developers.meta.com/horizon/documentation/android-apps/horizon-os-jsdk/)** — Java APIs for Horizon OS features, akin to the Android SDK. Distributed as the `horizon-os-jsdk` Android library (AAR).
+- **[Horizon OS NSDK](https://developers.meta.com/horizon/documentation/native/horizon-os-nsdk/horizon-os-nsdk-overview/)** — Native C APIs for Horizon OS features, akin to the Android NDK. Distributed as the `horizon-os-nsdk` Android library (AAR) with Prefab-packaged headers and shared libraries.
 - **Horizon OS Support Library** — A "static" library that provides a more convenient and compatible API for common Horizon OS features, akin to AndroidX/Jetpack.
 
 ## Repository Layout
